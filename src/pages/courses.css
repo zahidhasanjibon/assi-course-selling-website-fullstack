@@ -1,0 +1,63 @@
+.top-banner {
+  min-height: 100px;
+
+  background: url("../assests/img/top-heading-course-new.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(45, 51, 57, 0.95);
+  position: relative;
+}
+.top-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.top-banner-title {
+  padding: 80px 0;
+}
+.top-banner-title h1 {
+  position: relative;
+  margin-left: 60px;
+  padding-left: 16px;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  z-index: 99;
+  border-left: 4px solid yellow;
+}
+/* .divider {
+  border-bottom: 2px solid gray;
+} */
+/* .main-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 25px;
+} */
+.left-side-bar {
+  background-color: #f9f9f6;
+  padding: 20px;
+}
+.left-side-bar ul > li {
+  border-bottom: 1px dashed #d3d3d3;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.left-side-bar ul > li:hover {
+  color: blue;
+}
+/* .course-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+} */
+.rating {
+  display: flex;
+}
+.course-img {
+  display: block;
+  width: 830px;
+  height: 400px;
+}
